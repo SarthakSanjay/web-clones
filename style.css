@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand a{
+    color: rgb(255, 128, 0);
+}
+
+@media (max-width:412px){
+    .para{
+        font-size: 3rem;
+        font-weight: 700;
+        margin-left: 18px;
+    }
+    .navbar-brand a{
+        color: rgb(255, 128, 0);
+    }
+    .bot{
+        padding: 7px;
+        background-color: #fff;
+        margin-left: 18px;
+        color: #000;
+        border: 1px solid #000;
+        border-radius: 25px;
+    }
+    img{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .box1{
+        margin: 50px 10px 7px;
+        border: 2px solid #f8f8f8;
+    }
+    .span1{
+        padding: 20px 10px;
+        font-size: 18px;
+        
+    }
+    .smallbtn{
+        margin-left: 58px;
+        color: #fff;
+        background-color: orange;
+        border: none;
+        padding: 0px 13px;
+        border-radius: 20px;
+    }
+
+    .span2{
+        padding: 0 10px 10px 10px;
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+    .info{
+        background-image: url(pexels-magda-ehlers-2114014.jpg);
+        /* background-position: center; */
+        background-size: cover;
+        height: 70%;
+        width: 100%;
+        padding: 80px 20px;
+    }
+    .info-content{
+        background-color: #fff;
+        padding: 50px 10px;
+    }
+}
